@@ -1,0 +1,238 @@
+a {
+    text-decoration: none;
+}
+header {
+    max-width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__conatiner__figure__form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search__input {
+    width: 350px;
+    height: 45px;
+    border-radius: 20px;
+    background: #F5F5F5;
+    border: none;
+    padding-left: 5px;
+    padding-right: 50px;
+    font-size: 1.6rem;
+}
+
+.search__input::placeholder {
+    font-size: 1.6rem;
+}
+
+.search__input:focus {
+    outline: none;
+}
+
+.search__icon {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    font-size: 2rem;
+    color: #A2A2A2;
+}
+
+.header__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    width: 153px;
+    max-width: 153px;
+    min-width: 153px;
+    height: 45px;
+}
+
+
+/* SECTION HERO */
+.hero {
+    height: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    width: 100%;
+    background: url(../images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12%;
+}
+
+.hero__text__container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero__title, .hero__sub__title, .hero__link {
+    color: #FFFFFF;
+}
+
+.hero__title {
+    font-size: 6rem;
+}
+
+.hero__sub__title {
+    font-size: 2.4rem;
+}
+
+.hero__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    background: #2A7AE4;
+    width: 205px;
+    height: 45px;
+}
+
+/* SECTION MAIN */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* SECTION STAR WARS */
+
+.product_star__wars {
+    margin-top: 30px;
+}
+.product_star__wars > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_star__wars > div > h2 {
+    color: #464646;
+    font-size: 3rem;
+}
+
+.product_star__wars > div > a {
+    color: #2A7AE4;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.product_star__wars > div > a:hover {
+    color: #58a0ff;
+}
+
+.product__conatiner {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.product__name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #464646;
+}
+
+.product__price {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.product__link {
+    color: #2A7AE4;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+    background: #c8dfff;
+
+    padding: 80px 0;
+}
+
+.footer__section {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__section > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__section > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section > ul > a {
+    font-size: 2rem;
+    color: #464646;
+}
+
+.footer__section > form > h2 {
+    font-size: 2.5rem;
+    color: #464646;
+}
+
+
+.input__name {
+    width: 400px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 5px;
+}
+
+.input__sms {
+    width: 400px;
+    height: 90px;
+    margin-bottom: 10px;
+    border: none;
+    resize: none;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.input__sms,.input__name::placeholder {
+    font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input__name, .input__sms:focus {
+    outline: none;
+}
+
+.footer__section > form > button {
+    width: 205px;
+    height: 45px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.by {
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px 0;
+}
