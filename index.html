@@ -9,11 +9,12 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./e-commerse-style/style.css">
+    <link rel="stylesheet" href="./e-commerse-style/dispositivos.css">
 
     <title>e-commerse</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="header__conatiner__figure__form">
             <figure>
                 <img src="./images/Logo.svg" alt="">
@@ -25,6 +26,13 @@
         </div>
         <a class="header__login" href="login.html">Login</a>
     </header>
+    <header class="mobile">
+        <figure>
+            <img src="./images/Logo.svg" alt="">
+        </figure>
+        <a class="header__login" href="login.html">Login</a>
+        <i class="fa-solid fa-magnifying-glass search__icon"></i>
+    </header>
     <section class="hero">
         <div class="hero__text__container">
             <h1 class="hero__title">Febrero promocional</h1>
@@ -34,7 +42,7 @@
     </section>
     <main>
         <section class="product_star__wars">
-            <div>
+            <div class="product_star__wars__more">
                 <h2>Star Wars</h2>
                 <a href="#">Ver todo <i class="fa-solid fa-arrow-right"></i></a>
             </div>
@@ -77,7 +85,7 @@
                     </figure>
                     <p>Producto XYZ</p>
                     <p>$ 60,00</p>
-                    <a href="">Ver producto</a>
+                    <a class="product__link" href="">Ver producto</a>
                 </div>
                 <div>
                     <figure>
@@ -132,7 +140,7 @@
                     </figure>
                     <p>Producto XYZ</p>
                     <p>$ 60,00</p>
-                    <a href="">Ver producto</a>
+                    <a class="product__link" href="">Ver producto</a>
                 </div>
                 <div>
                     <figure>
@@ -187,7 +195,7 @@
                     </figure>
                     <p>Producto XYZ</p>
                     <p>$ 60,00</p>
-                    <a href="">Ver producto</a>
+                    <a class="product__link" href="">Ver producto</a>
                 </div>
                 <div>
                     <figure>
@@ -202,17 +210,19 @@
     </main>
     <footer>
         <section class="footer__section">
-            <figure>
-                <img src="./images/Logo.svg" alt="">
-            </figure>
-            <ul>
-                <a href="">Quienes somos</a>
-                <a href="">Politica de privacidad</a>
-                <a href="">Programa de fidelidad</a>
-                <a href="">Nuestras tiendas</a>
-                <a href="">Quiero ser franquiciado</a>
-                <a href="">Anúncie aquí</a>
-            </ul>
+            <div>
+                <figure>
+                    <img src="./images/Logo.svg" alt="">
+                </figure>
+                <ul>
+                    <a href="">Quienes somos</a>
+                    <a href="">Politica de privacidad</a>
+                    <a href="">Programa de fidelidad</a>
+                    <a href="">Nuestras tiendas</a>
+                    <a href="">Quiero ser franquiciado</a>
+                    <a href="">Anúncie aquí</a>
+                </ul>
+            </div>
             <form>
                 <h2>Hable con nosotros</h2>
                 <input class="input__name" type="text" placeholder="Nombre">
