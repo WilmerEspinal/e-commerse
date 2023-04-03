@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/41e86e3762.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./productos/style.css" />
+    <title>productos</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__conatiner__figure__form">
+        <figure>
+          <img src="./images/Logo.svg" alt="" />
+        </figure>
+        <form class="search">
+          <input
+            class="search__input"
+            type="search"
+            placeholder="¿Qué deseas buscar?"
+          />
+          <i class="fa-solid fa-magnifying-glass search__icon"></i>
+        </form>
+      </div>
+      <a class="header__login" href="login.html">Menú Administrador</a>
+    </header>
+    <header class="mobile">
+      <figure>
+        <img src="./images/Logo.svg" alt="" />
+      </figure>
+      <a class="header__login" href="login.html">Login</a>
+      <i class="fa-solid fa-magnifying-glass search__icon"></i>
+    </header>
+    <main class="main">
+      <form action="" data-form>
+        <h2>Agregar nuevo producto</h2>
+        <input type="url" placeholder="URL de imagen" required data-image />
+        <input type="text" placeholder="Categoria" data-category />
+        <input
+          type="text"
+          placeholder="Nombre del producto"
+          required
+          data-name
+        />
+        <input
+          type="text"
+          placeholder="Precio del producto"
+          required
+          data-price
+        />
+        <input
+          type="text"
+          placeholder="Descripción del producto"
+          data-description
+          disabled
+        />
+        <button>Agregar producto</button>
+      </form>
+    </main>
+    <footer>
+      <section class="footer__section">
+        <div>
+          <figure>
+            <img src="./images/Logo.svg" alt="" />
+          </figure>
+          <ul>
+            <a href="">Quienes somos</a>
+            <a href="">Politica de privacidad</a>
+            <a href="">Programa de fidelidad</a>
+            <a href="">Nuestras tiendas</a>
+            <a href="">Quiero ser franquiciado</a>
+            <a href="">Anúncie aquí</a>
+          </ul>
+        </div>
+        <form>
+          <h2>Hable con nosotros</h2>
+          <input class="input__name" type="text" placeholder="Nombre" />
+          <textarea
+            class="input__sms"
+            cols="30"
+            rows="10"
+            placeholder="Escribe tu mensaje"
+          ></textarea>
+          <button>Enviar mensaje</button>
+        </form>
+      </section>
+    </footer>
+    <section>
+      <h4 class="by">Desarrollado por Wilmer Espinal Villanueva<br />2023</h4>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="./controllers/resgistro-producto.js"></script>
+  </body>
+</html>

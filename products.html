@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./productos-style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/41e86e3762.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Productos</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__conatiner__figure__form">
+        <figure>
+          <img src="./images/Logo.svg" alt="" />
+        </figure>
+        <form class="search">
+          <input
+            class="search__input"
+            type="search"
+            placeholder="¿Qué deseas buscar?"
+          />
+          <i class="fa-solid fa-magnifying-glass search__icon"></i>
+        </form>
+      </div>
+    </header>
+    <main>
+      <section class="title">
+        <h2>Todos los productos</h2>
+        <a href="/register-product.html">Agregar producto</a>
+      </section>
+      <section class="products">
+        <div data-starwars>
+          <!-- <figure>
+                        <img src="./images/consola-1.png" alt="">
+                        <div class="icons">
+                            <button><i class="fa-solid fa-trash"></i></button>
+                            <button><i class="fa-solid fa-pen"></i></button>
+                        </div>
+                    </figure>
+                    <p class="product__name">Producto XYZ</p>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__link" href="">Ver producto</a> -->
+        </div>
+        <div class="consolas" data-consolas>
+          <!-- <div>
+                    <figure>
+                        <img src="./images/consola-1.png" alt="">
+                        <div class="icons">
+                            <button><i class="fa-solid fa-trash"></i></button>
+                            <button><i class="fa-solid fa-pen"></i></button>
+                        </div>
+                    </figure>
+                    <p class="product__name">Producto XYZ</p>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__link" href="">Ver producto</a>
+                </div> -->
+        </div>
+        <div class="diversos" data-diversos>
+          <!-- <div>
+                    <figure>
+                        <img src="./images/consola-1.png" alt="">
+                        <div class="icons">
+                            <button><i class="fa-solid fa-trash"></i></button>
+                            <button><i class="fa-solid fa-pen"></i></button>
+                        </div>
+                    </figure>
+                    <p class="product__name">Producto XYZ</p>
+                    <p class="product__price">$ 60,00</p>
+                    <a class="product__link" href="">Ver producto</a>
+                </div> -->
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./controllers/product-controller.js"></script>
+  </body>
+</html>

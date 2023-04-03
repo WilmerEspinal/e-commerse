@@ -1,0 +1,50 @@
+{
+  "starwars": [
+    {
+      "image": "http://127.0.0.1:5501/images/star-wars-1.png",
+      "name": "producto1",
+      "price": "850",
+      "id": "9879d95e-97b9-4a50-913b-16735e3e0aac"
+    },
+    {
+      "image": "http://127.0.0.1:5501/images/star-wars-2.png",
+      "name": "producto2",
+      "price": "800",
+      "id": "409bfc8b-2552-41df-9275-7bf73649121e"
+    },
+    {
+      "image": "http://127.0.0.1:5501/images/star-wars-3.png",
+      "name": "producto3",
+      "price": "700",
+      "id": "6e7cf573-590c-4e33-98b5-3e1ad4d550b2"
+    },
+    {
+      "image": "http://127.0.0.1:5501/images/star-wars-4.png",
+      "name": "producto4",
+      "price": "556",
+      "id": "1be985dd-1516-44de-915f-d562647e9b0a"
+    },
+    {
+      "image": "http://127.0.0.1:5501/images/star-wars-5.png",
+      "name": "producto5",
+      "price": "234",
+      "id": "5e06a7e5-928b-43ec-983c-0933c017ce31"
+    }
+  ],
+  "consolas": [
+    {
+      "image": "http://127.0.0.1:5501/images/consola-1.png",
+      "name": "producto1",
+      "price": "1500",
+      "id": "03423681-f351-4057-ad66-01352373b315"
+    }
+  ],
+  "diversos": [
+    {
+      "image": "http://127.0.0.1:5501/images/diversos-1.png",
+      "name": "diversos",
+      "price": "500",
+      "id": "420981a8-94f9-4edb-9089-36b080e8b3b8"
+    }
+  ]
+}
